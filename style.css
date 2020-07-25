@@ -1,0 +1,13 @@
+#content{
+    text-align: center;
+    padding-top: 25%;
+}
+
+body{
+    background-image: url(https://d3q33rbmdkxzj.cloudfront.net/1589466137456_aFz3CE.png);
+}
+
+#button-edit {
+    border: black;
+    border-radius: 20%;
+}
