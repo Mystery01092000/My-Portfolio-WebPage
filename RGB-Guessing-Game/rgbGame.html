@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="colorGame.css">
-    <title>RGB-Game</title>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-    <h1>The Great 
-        <span id='colorDisplay'>RGB</span>
-        Game </h1>
-        <div>
-            <span id="message"></span>
-        </div>
-    <div id="container">
-        <div class='square'></div>
-        <div class='square'></div>
-        <div class='square'></div>
-        <div class='square'></div>
-        <div class='square'></div>
-        <div class='square'></div>
-    </div>
-    <script src="colorGame.js"></script>
+<h1>
+	The Great 
+	<br>
+	<span id="colorDisplay">RGB</span> 
+	<br>
+	Color Game
+</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button class="mode">Easy</button>
+	<button class="mode selected">Hard</button>
+</div>
+
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
 </body>
 </html>
